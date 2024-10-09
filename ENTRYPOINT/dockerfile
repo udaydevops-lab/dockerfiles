@@ -1,0 +1,7 @@
+FROM almalinux:8
+#CMD ["ping", "google.com"] this can be overriden 
+# ENTRYPOINT [ "ping" "google.com" ] this cannot be overriden at the runtime
+CMD ["google.com"]
+ENTRYPOINT ["ping"]
+
+

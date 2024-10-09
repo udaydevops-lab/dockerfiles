@@ -1,0 +1,6 @@
+FROM centos:8
+#LABEL key="value"
+LABEL TRAINING="DEVOPS" \
+      TRAINER="SIVA" \
+      DURATION="100 HRS" 
+CMD ["nginx","-g","daemon off;"]

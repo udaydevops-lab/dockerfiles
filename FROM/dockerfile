@@ -1,0 +1,3 @@
+#form is the instruction 
+#centos is image name : 8 is tag
+FROM centos:8

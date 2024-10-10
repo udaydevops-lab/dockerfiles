@@ -1,0 +1,6 @@
+FROM almalinux:8
+
+#from here the default directory is /tmp
+WORKDIR /tmp 
+RUN echo "Hello Docker" > hello.txt
+CMD ["sleep", "100"]
